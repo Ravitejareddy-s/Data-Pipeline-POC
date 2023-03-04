@@ -18,7 +18,7 @@ print("start")
 for i in range(num):
     print(get_time())
     s += ','+str(get_time())
-    time.sleep(1)
+    time.sleep(60)
 print('end')
 s += ','+'end'
 client = boto3.client(
